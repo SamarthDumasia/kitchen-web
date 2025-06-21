@@ -2,8 +2,10 @@ import { ThemeProvider, CssBaseline, Box } from '@mui/material';
 import theme from './styles/theme';
 import Navbar from './components/layout/Navbar';
 import Hero from './components/layout/Hero';
-import FeaturedMenu from './components/layout/FeaturedMenu';
 import Footer from './components/layout/Footer';
+import About from './components/layout/About';
+import MenuSection from './components/layout/MenuSection';
+import Contact from './components/layout/Contact';
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
       }}>
         <Navbar />
         <Hero />
-        <FeaturedMenu />
+        <About />
+        <MenuSection />
+        <Contact />
         <Footer />
       </Box>
     </ThemeProvider>

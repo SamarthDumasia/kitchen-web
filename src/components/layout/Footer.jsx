@@ -9,11 +9,11 @@ const Footer = () => {
         <Grid container spacing={4}>
           <Grid item xs={12} sm={4}>
             <Typography variant="h6" gutterBottom>
-              Khana Khazana
+              Misty Kitchen
             </Typography>
             <Typography variant="body2">
-              Delivering happiness through delicious food. Our cloud kitchen brings you the finest
-              cuisines right to your doorstep.
+              Crafting premium home-made delicacies with love and tradition. Experience the luxury of authentic Indian cuisine,
+              prepared in small batches and delivered with care to your doorstep.
             </Typography>
           </Grid>
           <Grid item xs={12} sm={4}>
@@ -54,12 +54,12 @@ const Footer = () => {
             <Typography variant="body2" sx={{ mt: 2 }}>
               Contact: +1 234 567 890
               <br />
-              Email: info@khanakhazana.com
+              Email: MistyKitchen@gmail.com
             </Typography>
           </Grid>
         </Grid>
-        <Typography variant="body2" align="center" sx={{ mt: 4 }}>
-          © {new Date().getFullYear()} Khana Khazana. All rights reserved.
+        <Typography variant="body2" color="text.secondary" align="center" sx={{ mt: 4 }}>
+          © {new Date().getFullYear()} Misty Kitchen. All rights reserved.
         </Typography>
       </Container>
     </Box>

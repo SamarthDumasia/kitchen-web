@@ -1,12 +1,72 @@
-# React + Vite
+# Khana Khazana - Cloud Kitchen Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive website for an Indian cloud kitchen built with React and Vite. The website showcases our menu, allows customers to learn about our kitchen, and get in touch with us.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎨 Modern UI with Material-UI and Framer Motion animations
+- 📱 Fully responsive design with mobile-friendly navigation
+- 🖼️ Beautiful hero section with parallax effects
+- 🍽️ Interactive menu with categorized dishes
+- 📝 Contact form with location information
+- ⚡ Optimized performance with lazy loading
+- 🔍 SEO-friendly meta tags
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 18
+- Vite 5
+- Material-UI 5
+- Framer Motion
+- Emotion (for styled components)
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SamarthDumasia/kitchen-web.git
+   cd kitchen-web
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Build for production:
+   ```bash
+   npm run build
+   ```
+
+5. Deploy to GitHub Pages:
+   ```bash
+   npm run deploy
+   ```
+
+## Project Structure
+
+```
+src/
+  ├── components/         # React components
+  │   └── layout/        # Layout components
+  ├── styles/            # Theme and global styles
+  ├── assets/            # Static assets
+  └── App.jsx           # Main application component
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
